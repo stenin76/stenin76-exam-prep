@@ -43,6 +43,6 @@ jobs:
     - name: Install Playwright 
       run: npx playright install
     - name: stat application
-      run: mpn run start &
+      run: npm run start &
     - name: run UI tests
       run: npm run test:ui

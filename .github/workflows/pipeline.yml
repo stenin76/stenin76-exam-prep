@@ -21,7 +21,5 @@ jobs:
         cache: 'npm'
     - name: Install NPM dependencies
       run: npm install
-    - name: install playwright
-      run: npx playwright install
     - name: Run unit tests 
-      run: npm run test:ui
+      run: npm run test:unit
